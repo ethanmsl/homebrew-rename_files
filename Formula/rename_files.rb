@@ -1,21 +1,21 @@
 class RenameFiles < Formula
   desc "CLI tool (& lib); regex search files & optionally rename. Recursive and Test flags available, but intentionally minimal."
   homepage "https://github.com/ethanmsl/rename_files"
-  version "0.4.2"
+  version "0.4.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ethanmsl/rename_files/releases/download/v0.4.2/rename_files-aarch64-apple-darwin.tar.xz"
-      sha256 "c7ad6d500b6ed81e8412edd9531572fdbd1fa16dab9d3557fdedbc057c63950b"
+      url "https://github.com/ethanmsl/rename_files/releases/download/v0.4.3/rename_files-aarch64-apple-darwin.tar.xz"
+      sha256 "a8a9f1862f75ef1d891a8ff32fa9a24c0aa24aa81ef28a4bc4e482adc0fcfecf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ethanmsl/rename_files/releases/download/v0.4.2/rename_files-x86_64-apple-darwin.tar.xz"
-      sha256 "3aa05d37ae196998be3d177ffcf33358d253f4a5dc036535f570d754e51c9223"
+      url "https://github.com/ethanmsl/rename_files/releases/download/v0.4.3/rename_files-x86_64-apple-darwin.tar.xz"
+      sha256 "4701c3fa7a6d2903991595543e2f8b600dbd5c9217e213e60c49599d4d098fa3"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ethanmsl/rename_files/releases/download/v0.4.2/rename_files-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f89a9b5e509536282ec7347f958352e87b10a2797b0a142134755d6baaff7a40"
+      url "https://github.com/ethanmsl/rename_files/releases/download/v0.4.3/rename_files-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b4bec5cbbc2eb0c5fa09bb412eb8ff0767213dc879496f68ab6423bb6bc99f6d"
     end
   end
 
